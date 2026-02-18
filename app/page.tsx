@@ -17,7 +17,6 @@ const examples = [
   "What is the taste of history?",
   "what is inside you?",
   "what is longing?",
-  "Tell me when the world ends.",
 ];
 
 export default function Chat() {
@@ -36,7 +35,7 @@ export default function Chat() {
   const disabled = isLoading || input.length === 0;
 
   return (
-    <main className="flex flex-col items-center justify-between pb-40">
+    <main className="flex flex-col items-center justify-between pb-40 bg-zinc-950 text-zinc-100">
       <div className="absolute top-5 hidden w-full justify-between px-5 sm:flex">
       </div>
       {messages.length > 0 ? (
