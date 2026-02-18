@@ -149,8 +149,8 @@ export default function Chat() {
             className={clsx(
               "absolute inset-y-0 right-3 my-auto flex h-8 w-8 items-center justify-center rounded-md transition-all",
               disabled
-                ? "cursor-not-allowed bg-white"
-                : "bg-green-500 hover:bg-green-600",
+                ? "cursor-not-allowed bg-stone-200"
+                : "bg-rose-500 hover:bg-rose-600",
             )}
             disabled={disabled}
           >
@@ -172,7 +172,7 @@ export default function Chat() {
             href="https://sdk.vercel.ai/docs"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-black"
+            className="transition-colors hover:text-teal-700"
           >
             Vercel AI SDK
           </a>
@@ -181,7 +181,7 @@ export default function Chat() {
             href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-black"
+            className="transition-colors hover:text-teal-700"
           >
             OpenAI GPT-3.5-turbo, as part of a course taught by
           </a>{" "}
