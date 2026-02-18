@@ -35,7 +35,7 @@ export default function Chat() {
   const disabled = isLoading || input.length === 0;
 
   return (
-    <main className="flex flex-col items-center justify-between pb-40 bg-zinc-950 text-zinc-100">
+    <main className="flex flex-col items-center justify-between pb-40 bg-stone-50 text-stone-900">
       <div className="absolute top-5 hidden w-full justify-between px-5 sm:flex">
       </div>
       {messages.length > 0 ? (
