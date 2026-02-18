@@ -44,14 +44,14 @@ export default function Chat() {
             key={i}
             className={clsx(
               "flex w-full items-center justify-center border-b border-gray-200 py-8",
-              message.role === "user" ? "bg-white" : "bg-gray-100",
+              message.role === "user" ? "bg-slate-50" : "bg-gray-100",
             )}
           >
             <div className="flex w-full max-w-screen-md items-start space-x-4 px-5 sm:px-0">
               <div
                 className={clsx(
                   message.role === "assistant"
-                    ? "bg-white"
+                    ? "bg-slate-50"
                     : "bg-black p-1.5 text-white",
                 )}
               >
