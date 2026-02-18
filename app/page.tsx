@@ -17,6 +17,7 @@ const examples = [
   "What is the taste of history?",
   "what is inside you?",
   "what is longing?",
+  "Tell me when the world ends.",
 ];
 
 export default function Chat() {
