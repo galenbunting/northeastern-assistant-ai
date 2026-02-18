@@ -91,7 +91,7 @@ export default function Chat() {
                 href="https://linkin.bio/yallahalim/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium underline underline-offset-4 transition-colors hover:text-black"
+                className="font-medium underline underline-offset-4 transition-colors hover:text-teal-700"
               >
                 Halim Madi
               </a>. I was built using{" "}
@@ -99,7 +99,7 @@ export default function Chat() {
                 href="https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium underline underline-offset-4 transition-colors hover:text-black"
+                className="font-medium underline underline-offset-4 transition-colors hover:text-teal-700"
               >
                 fine-tuned GPT4.
               </a>
@@ -109,7 +109,7 @@ export default function Chat() {
             {examples.map((example, i) => (
               <button
                 key={i}
-                className="rounded-md border border-gray-200 bg-white px-5 py-3 text-left text-sm text-gray-500 transition-all duration-75 hover:border-black hover:text-gray-700 active:bg-gray-50"
+                className="rounded-md border border-stone-200 bg-white px-5 py-3 text-left text-sm text-stone-500 transition-all duration-150 hover:border-teal-600 hover:text-stone-800 hover:shadow-sm active:bg-stone-100"
                 onClick={() => {
                   setInput(example);
                   inputRef.current?.focus();
