@@ -86,7 +86,7 @@ export default function Chat() {
               I'm a curious wandering LLM.
             </h1>
             <p className="text-gray-500">
-              I'm part of a series of computational experiments taught by{" "}
+              I'm a computational poetry experiment fine-tuned by Galen Bunting, made for a class taught by{" "}
               <a
                 href="https://linkin.bio/yallahalim/"
                 target="_blank"
@@ -185,12 +185,12 @@ export default function Chat() {
           >
             OpenAI GPT-3.5-turbo, as part of a course taught by
           </a>{" "}
-          Halim Madi.{" "}
+          Halim Madi and fine-tuned by Galen Bunting.{" "}
           <a
             href="https://linkin.bio/yallahalim/"
             target="_blank"
             rel="noopener noreferrer"
-            className="transition-colors hover:text-black"
+            className="transition-colors hover:text-teal-700"
           >
             Learn to build your own
           </a>
