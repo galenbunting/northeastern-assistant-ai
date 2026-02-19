@@ -86,7 +86,7 @@ export default function Chat() {
               I'm a curious wandering LLM.
             </h1>
             <p className="text-stone-500">
-              I'm a computational poetry experiment fine-tuned by Galen Bunting, made for a class taught by{" "}
+              I'm a computational poetry experiment trained and fine-tuned on poetry by Galen Bunting, made for a class taught by{" "}
               <a
                 href="https://linkin.bio/yallahalim/"
                 target="_blank"
