@@ -82,10 +82,10 @@ export default function Chat() {
               height={40}
               className="h-20 w-20"
             />
-            <h1 className="text-lg font-semibold text-black">
+            <h1 className="text-lg font-semibold text-stone-900">
               I'm a curious wandering LLM.
             </h1>
-            <p className="text-gray-500">
+            <p className="text-stone-500">
               I'm a computational poetry experiment fine-tuned by Galen Bunting, made for a class taught by{" "}
               <a
                 href="https://linkin.bio/yallahalim/"
@@ -105,7 +105,7 @@ export default function Chat() {
               </a>
             </p>
           </div>
-          <div className="flex flex-col space-y-4 border-t border-gray-200 bg-gray-50 p-7 sm:p-10">
+          <div className="flex flex-col space-y-4 border-t border-stone-200 bg-stone-100 p-7 sm:p-10">
             {examples.map((example, i) => (
               <button
                 key={i}
@@ -121,11 +121,11 @@ export default function Chat() {
           </div>
         </div>
       )}
-      <div className="fixed bottom-0 flex w-full flex-col items-center space-y-3 bg-gradient-to-b from-transparent via-gray-100 to-gray-100 p-5 pb-3 sm:px-0">
+      <div className="fixed bottom-0 flex w-full flex-col items-center space-y-3 bg-gradient-to-b from-transparent via-stone-100 to-stone-50 p-5 pb-3 sm:px-0">
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="relative w-full max-w-screen-md rounded-xl border border-gray-200 bg-white px-4 pb-2 pt-3 shadow-lg sm:pb-3 sm:pt-4"
+          className="relative w-full max-w-screen-md rounded-xl border border-stone-200 bg-white px-4 pb-2 pt-3 shadow-lg sm:pb-3 sm:pt-4"
         >
           <Textarea
             ref={inputRef}
